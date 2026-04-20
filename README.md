@@ -7,8 +7,11 @@ it against a commercial pulse oximeter, and extend it into a platform
 for heart rate variability (HRV) analysis and arrhythmia detection.
 
 **Author:** Arjun Kumar Singh
+
 **School:** West Windsor-Plainsboro High School South
+
 **Started:** April
+
 **Status:** 🟡 In progress — currently on Phase 1
 
 ---
