@@ -10,7 +10,7 @@ for heart rate variability (HRV) analysis and arrhythmia detection.
 
 **School:** West Windsor-Plainsboro High School South
 
-**Started:** April
+**Started:** April 23rd
 
 **Status:** 🟡 In progress — currently on Phase 1
 
@@ -43,13 +43,9 @@ diagnostic tools can reach places that expensive ones can't.
 | Display | SSD1306 0.96" OLED (I2C) | Shows BPM and SpO2 |
 | Reference | [Model] fingertip pulse-ox | Ground truth for validation |
 
-[Add a photo of your device once you have one built.]
 
 ### Wiring
 
-[Add a wiring diagram — hand-drawn on graph paper and photographed
- is totally fine and actually better than a fancy Fritzing diagram.
- Scan or photograph your lab notebook page and put it here.]
 
 ---
 
@@ -74,6 +70,7 @@ OLED.
 
 ## Project phases
 
+- [ ] **Phase 0: Basic Arduino** — simple code, wiring, setup
 - [ ] **Phase 1: Get it working** — basic device, reads HR and SpO2, displays on OLED
 - [ ] **Phase 2: Validation study** — 30 paired readings against commercial device, Bland-Altman analysis
 - [ ] **Phase 3: Signal processing** — raw waveform capture, Python analysis, my own peak detection, HRV calculation
@@ -106,15 +103,9 @@ OLED.
 
 ## What I've learned so far
 
-[Keep a running list of concepts you encountered and had to learn.
- This is gold for college essays and interviews later — it shows
- the shape of your learning, not just the end result. Examples:]
-
-- What I2C is and why it matters for connecting sensors
-- The difference between sampling rate and pulse width on the MAX30102
-- Why raw PPG signals have a big DC component you have to filter out
-- What a Bland-Altman plot is and when to use one instead of a scatter plot
-- [Keep adding as you go]
+-Phase 0
+   I've learned basic wiring, setup, and binary for the Arduino.
+   I've started wiring basic examples using LEDs
 
 ---
 
@@ -132,8 +123,6 @@ for details.
 
 ## Blog posts about this project
 
-[Link each blog post as you publish it:]
-
 1. [Week 1: Getting the sensor talking]
 2. [Why my pulse oximeter disagrees with the drugstore one]
 3. [What is heart rate variability, and why does it matter?]
@@ -141,8 +130,6 @@ for details.
 ---
 
 ## References
-
-[Start a list. Real papers only, not just blog posts. Examples:]
 
 1. Allen, J. (2007). *Photoplethysmography and its application in
    clinical physiological measurement.* Physiological Measurement, 28(3), R1-R39.
