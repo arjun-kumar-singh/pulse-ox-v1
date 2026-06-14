@@ -12,7 +12,7 @@ for heart rate variability (HRV) analysis and arrhythmia detection.
 
 **Started:** April 23rd
 
-**Status:** 🟡 In progress — currently on Phase 1
+**Status:** 🟡 In progress — currently on Phase 2
 
 ---
 
@@ -70,8 +70,8 @@ OLED.
 
 ## Project phases
 
-- [ ] **Phase 0: Basic Arduino** — simple code, wiring, setup
-- [ ] **Phase 1: Get it working** — basic device, reads HR and SpO2, displays on OLED
+- [✔️] **Phase 0: Basic Arduino** — simple code, wiring, setup
+- [✔️] **Phase 1: Get it working** — basic device, reads HR and SpO2, displays on OLED
 - [ ] **Phase 2: Validation study** — 30 paired readings against commercial device, Bland-Altman analysis
 - [ ] **Phase 3: Signal processing** — raw waveform capture, Python analysis, my own peak detection, HRV calculation
 - [ ] **Phase 4: Extension** — [planning to add: ECG + pulse transit time / arrhythmia classifier / wearable form factor]
