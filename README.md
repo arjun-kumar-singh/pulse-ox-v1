@@ -72,7 +72,7 @@ OLED.
 
 - [✔️] **Phase 0: Basic Arduino** — simple code, wiring, setup
 - [✔️] **Phase 1: Get it working** — basic device, reads HR and SpO2, displays on OLED
-- [ ] **Phase 2: Validation study** — 30 paired readings against commercial device, Bland-Altman analysis
+- [ ] **Phase 2: Validation study** — 25 paired readings against commercial device, Bland-Altman analysis
 - [ ] **Phase 3: Signal processing** — raw waveform capture, Python analysis, my own peak detection, HRV calculation
 - [ ] **Phase 4: Extension** — [planning to add: ECG + pulse transit time / arrhythmia classifier / wearable form factor]
 - [ ] **Phase 5: Writeup** — conference-style paper, submit to [science fair / competition]
@@ -105,27 +105,31 @@ OLED.
 
 -Phase 0
    I've learned basic wiring, setup, and binary for the Arduino.
-   I've started wiring basic examples using LEDs
+   I've started wiring basic examples using LEDs 
+-Phase 1
+   More on how the sensor works (baud rate, IR and R light)
+   Learning about how the sensor can be affected with different conditions
+-Phase 2
+   Collecting data with the Arduino and commercial pulse oximeter
+   Experimenting with different conditions and the MAX30102
+
 
 ---
 
 ## Validation results
 
-[Fill in after Phase 2. Something like:]
-
-Across 30 paired readings under varying conditions (rest, post-exercise,
-cold hands, etc.), my device agreed with a commercial fingertip pulse
-oximeter to within ±[X] BPM on heart rate and ±[Y]% on SpO2. Agreement
-was worst under [conditions] — see the writeup in `analysis/phase2_validation.ipynb`
-for details.
+Across 25 paired readings under varying conditions (rest, post-exercise,
+cold hands, different pressures, different fingers), my device agreed with a commercial fingertip pulse
+oximeter, SpO2 readings were within 1-2% on every measurement, and heart rate was
+within 1-3 BPM on most.
 
 ---
 
 ## Blog posts about this project
 
-1. [Week 1: Getting the sensor talking]
-2. [Why my pulse oximeter disagrees with the drugstore one]
-3. [What is heart rate variability, and why does it matter?]
+1. [Post 1: Arduino basics and getting the sensor talking] https://github.com/arjun-kumar-singh/arjun-kumar-singh.github.io/blob/master/_posts/2026-05-15-testing-the-sensor.md  
+2. [Post 2: Reading the sensor] https://github.com/arjun-kumar-singh/arjun-kumar-singh.github.io/blob/master/_posts/2026-05-23-reading-my-pulse-for-the-first-time.md
+3. [Collecting data against a commercial pulse oximeter] https://github.com/arjun-kumar-singh/arjun-kumar-singh.github.io/blob/master/_posts/2026-06-7-collecting-data.md  
 
 ---
 
